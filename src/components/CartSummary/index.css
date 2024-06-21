@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.span-text {
+  color: #616e7c;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .order-heading {
+    font-size: 32px;
+  }
+  .span-text{
+    font-size: 24px;
+  }
+  .total-items-description{
+    font-size: 16px;
+  }
+}
+
+.total-items-description {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.button-lg {
+  display: none;
+}
+
+.button-sm {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button-lg {
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'Roboto';
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .button-sm {
+    display: none;
+  }
+}
